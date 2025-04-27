@@ -3,10 +3,10 @@
 ## Autor
 
 José Ignacio Ribeiro Lucas  
-[Perfil de GitHub](https://github.com/Screvas)
+https://github.com/Screvas
 
 ## Descripción del Proyecto  
-[Link al repositorio del proyecto](https://github.com/Screvas/torneo-esports-uml/)
+https://github.com/Screvas/torneo-esports-uml
 
 Este proyecto implementa un sistema de gestión de torneos de eSports
 utilizando UML para el modelado y Java para la implementación.
