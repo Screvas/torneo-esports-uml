@@ -2,8 +2,8 @@
 
 ## Autor
 
-José Ignacio Ribeiro Lucas
-[Tu perfil de GitHub](https://github.com/Screvas)
+José Ignacio Ribeiro Lucas  
+[Perfil de GitHub](https://github.com/Screvas)
 
 ## Descripción del Proyecto
 Link al repositorio del proyecto
