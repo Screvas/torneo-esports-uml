@@ -27,7 +27,11 @@ utilizando UML para el modelado y Java para la implementación.
 
 ¿Cómo se relacionan entre sí las entidades del sistema?
 
+En este sistema, la vista (TeamPlayerVista) se encarga de la interacción con el usuario, enviando las acciones al controlador (TeamPlayerController), que maneja la lógica del negocio.
 
+El controlador se comunica con los modelos (Equipo y Jugador), que representan las entidades principales y definen su estructura. Los modelos gestionan la relación entre equipos y jugadores, donde un equipo puede tener múltiples jugadores.
+
+El controlador actúa como el centro de operaciones, coordinando la comunicación entre las vistas y los modelos, y garantizando el cumplimiento de las reglas del sistema.
 
 ## Diagramas UML ##  
 
@@ -62,10 +66,26 @@ torneo-esports-uml/ ├── src/
 
 ## Justificación del diseño  
 
-Por qué se eligió esa estructura y cómo se organizan las clases.  
+He decidido organizar el diseño siguiendo la arquitectura MVC (Modelo-Vista-Controlador) para lograr una separación clara de responsabilidades:
+
+Vista (TeamPlayerVista): se centra exclusivamente en la interacción con el usuario, permitiendo modificar la interfaz sin afectar la lógica interna.
+
+Controlador (TeamPlayerController): gestiona la lógica del negocio y actúa como intermediario entre la vista y los modelos, asegurando que las operaciones respeten las reglas del sistema.
+
+Modelos (Equipo y Jugador): representan las entidades principales del sistema, encapsulando su estructura y relaciones (un equipo puede tener varios jugadores).
+
+Esta organización permite mantener un código limpio, mantenible y escalable, facilitando futuras ampliaciones como la incorporación de nuevas funcionalidades o el cambio en la forma de persistencia de datos, sin romper la lógica del sistema.  
 
 ## Conclusiones  
 
-Sobre el aprendizaje obtenido.  
+El desarrollo de este proyecto utilizando la arquitectura MVC me permitió comprender mejor la importancia de separar responsabilidades dentro de una aplicación:
+
+Vista: se encarga de mostrar información y recoger acciones del usuario, sin incluir lógica de negocio.
+
+Controlador: actúa como intermediario entre la vista y los modelos, aplicando las reglas del sistema.
+
+Modelos: representan las entidades principales (Equipo y Jugador) y gestionan sus relaciones.
+
+Diseñar el diagrama UML antes de programar me ayudó a visualizar claramente la estructura y relaciones entre clases, facilitando la planificación y la detección temprana de errores de diseño.  
 
 
