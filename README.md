@@ -2,8 +2,8 @@
 
 ## Autor
 
-Tu nombre completo
-Tu perfil de GitHub
+José Ignacio Ribeiro Lucas  
+[Perfil de GitHub](https://github.com/Screvas)
 
 ## Descripción del Proyecto
 Link al repositorio del proyecto
@@ -22,14 +22,16 @@ utilizando UML para el modelado y Java para la implementación.
 
 ## Estructura del Proyecto
 
-torneo-esports-uml/ ├── src/
-│ ├── es/empresa/torneo/
-│ │ ├── modelo/
-│ │ ├── control/
-│ │ ├── vista/
-│ │ ├── Main.java
-├── diagrams/
-│ ├── casos-uso.png
-│ ├── clases.png
-├── README.md
-├── .gitignore
+torneo-esports-uml/ ├── src/  
+│ ├── es/empresa/torneo/  
+│ │ ├── modelo/  
+│ │ ├── control/  
+│ │ ├── vista/  
+│ │ ├── Main.java  
+├── diagrams/  
+│ ├── casos-uso.png  
+│ ├── clases.png  
+├── README.md  
+├── .gitignore  
+
+
